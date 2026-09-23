@@ -124,3 +124,31 @@ A **merge conflict** happens when two versions changed the same line and Git can
 3. Click the arrows to pick which changes to keep, or type the fix yourself in the middle panel.
 4. Click Apply, then **commit** and **push** like normal.
 
+---
+
+## Part 2: Glossary
+
+- **Branch**: A separate line of work in a repository. It lets you try new things or build features without changing the main version until you're ready.
+- **Clone**: Making a full copy of a remote repository on your own computer, including all its files and history.
+- **Commit**: A saved snapshot of your changes with a message describing what you did. It's like a checkpoint you can go back to.
+- **Fetch**: Downloading info about new changes from the remote without adding them to your own files yet.
+- **GIT**: A free version control system that tracks changes to files over time so you can see history, go back to old versions, and work with other people.
+- **Github**: A website that hosts Git repositories online so you can store, share, and collaborate on projects.
+- **Merge**: Combining the changes from one branch into another branch.
+- **Merge Conflict**: When Git can't automatically combine two sets of changes because they edited the same part of a file, so a person has to pick what to keep.
+- **Push**: Sending your local commits up to the remote repository, like GitHub.
+- **Pull**: Downloading changes from the remote and merging them into your local files. It's basically a fetch plus a merge.
+- **Remote**: A version of your repository that's stored somewhere else, usually online on GitHub. The default one is called `origin`.
+- **Repository**: A project folder tracked by Git that holds all the files plus the full history of every change.
+
+---
+
+## References
+
+1. Chacon, S., & Straub, B. *Pro Git* (2nd ed.). Apress. https://git-scm.com/book/en/v2
+2. Git. *Git Documentation*. https://git-scm.com/doc
+3. Git. *Downloads*. https://git-scm.com/downloads
+4. GitHub. *GitHub Docs: Get started*. https://docs.github.com/en/get-started
+5. GitHub. *About merge conflicts*. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts
+6. JetBrains. *WebStorm Help: Version control*. https://www.jetbrains.com/help/webstorm/version-control-integration.html
+7. JetBrains. *Download WebStorm*. https://www.jetbrains.com/webstorm/download/
